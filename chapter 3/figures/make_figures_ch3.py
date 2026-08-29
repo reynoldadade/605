@@ -1,7 +1,9 @@
 """Generate the two Chapter 3 diagrams noted in the outline:
 
-- Figure 3.1: decision-flow for "which kind of component is this?"
-  (Server / Client / Shared).
+- Figure 3.7: decision-flow for "which kind of component is this?"
+  (Server / Client / Shared). Renumbered from 3.1 to 3.7 to match the
+  chapter's current figure sequence.
+
 - Figure 3.2: a full server-shell-plus-islands page.
 
 Same plain, monochrome box-and-arrow style as Chapter 2's
@@ -55,7 +57,7 @@ def arrow(ax, x1, y1, x2, y2, text=None, style="-|>", curve=0.0, fontsize=8.5):
 
 
 # ---------------------------------------------------------------------
-# Figure 3.1 — "which kind of component is this?" decision flow
+# Figure 3.7 — "which kind of component is this?" decision flow
 # ---------------------------------------------------------------------
 fig, ax = plt.subplots(figsize=(10.4, 5.4))
 ax.set_xlim(0, 12.2)
@@ -68,11 +70,11 @@ w1, h1 = 2.0, 1.15
 box(ax, 0.2, y_main, 1.7, h1, "Component\nto classify", fontsize=9.5)
 
 box(ax, 2.6, y_main - 0.1, 3.0, h1 + 0.2,
-    "Does it perform\nserver-only I/O?\n(DB query, filesystem,\nsecrets, server env vars)",
+    "Does it use\nclient-only APIs?\n(useState, useEffect,\nevent handlers, window)",
     fontsize=8.6)
 
 box(ax, 6.5, y_main - 0.1, 3.0, h1 + 0.2,
-    "Does it use\nclient-only APIs?\n(useState, useEffect,\nevent handlers, window)",
+    "Does it perform\nserver-only I/O?\n(DB query, filesystem,\nsecrets, server env vars)",
     fontsize=8.6)
 
 box(ax, 10.3, y_main, 1.7, h1,
@@ -87,14 +89,14 @@ arrow(ax, 9.5, y_main + h1 / 2, 10.3, y_main + h1 / 2, text="no", fontsize=8.5)
 # yes branches down to outcomes
 out_y = 0.4
 out_h = 1.15
-box(ax, 3.1, out_y, 2.0, out_h, "Server\nComponent", fontsize=9.5)
-box(ax, 7.0, out_y, 2.0, out_h, "Client\nComponent", fontsize=9.5, face=CLIENT_FACE, dashed=True)
+box(ax, 3.1, out_y, 2.0, out_h, "Client\nComponent", fontsize=9.5, face=CLIENT_FACE, dashed=True)
+box(ax, 7.0, out_y, 2.0, out_h, "Server\nComponent", fontsize=9.5)
 
 arrow(ax, 4.1, y_main - 0.1, 4.1, out_y + out_h, text="yes", fontsize=8.5)
 arrow(ax, 8.0, y_main - 0.1, 8.0, out_y + out_h, text="yes", fontsize=8.5)
 
 ax.text(6.1, 5.45,
-        "Figure 3.1 — the push-to-the-leaves heuristic starts by asking this "
+        "Figure 3.7 — the push-to-the-leaves heuristic starts by asking this "
         "question of every component",
         fontsize=9, color=ACCENT, style="italic", ha="center")
 ax.text(11.15, out_y + out_h + 0.35,
@@ -102,7 +104,7 @@ ax.text(11.15, out_y + out_h + 0.35,
         fontsize=7.6, color=ACCENT, style="italic", ha="center")
 
 plt.tight_layout()
-fig.savefig(os.path.join(OUT, "fig_3_1_component_kind_decision.png"), dpi=180, facecolor="white")
+fig.savefig(os.path.join(OUT, "fig_3_7_component_kind_decision.png"), dpi=180, facecolor="white")
 plt.close(fig)
 
 # ---------------------------------------------------------------------

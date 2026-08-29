@@ -1,17 +1,16 @@
 # Chapter 3 figures
 
-Per the publisher caption format (`Figure N.M: <Caption>`), these two are
-the figures flagged in the Chapter 3 outline as deferred to the "fill in
-sections" pass:
+Per the publisher caption format (`Figure N.M: <Caption>`):
 
-Figure 3.1: Which kind of component is this? A decision flow for Server,
+Figure 3.7: Which kind of component is this? A decision flow for Server,
 Client, and Shared Components
+(renumbered from 3.1 to match the chapter's current figure sequence)
 
 Figure 3.2: A server shell with client islands — the architecture the
 "push-to-the-leaves" heuristic builds toward
 
 Placement:
-- Figure 3.1 belongs in **The Three Kinds of Components** (or right at the
+- Figure 3.7 belongs in **The Three Kinds of Components** (or right at the
   top of **Boundary Placement**) — it's the operational version of the
   Server/Client/Shared definitions in that section.
 - Figure 3.2 belongs in **Architecture Patterns**, where the outline names
