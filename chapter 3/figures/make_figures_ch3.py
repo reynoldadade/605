@@ -4,7 +4,7 @@
   (Server / Client / Shared). Renumbered from 3.1 to 3.7 to match the
   chapter's current figure sequence.
 
-- Figure 3.2: a full server-shell-plus-islands page.
+- Figure 3.8 (renumbered from 3.2, 2026-08-30): a full server-shell-plus-islands page.
 
 Same plain, monochrome box-and-arrow style as Chapter 2's
 make_figures.py, so the book's figures read as one consistent visual
@@ -108,7 +108,7 @@ fig.savefig(os.path.join(OUT, "fig_3_7_component_kind_decision.png"), dpi=180, f
 plt.close(fig)
 
 # ---------------------------------------------------------------------
-# Figure 3.2 — server shell, client islands (a full page)
+# Figure 3.8 (renumbered from 3.2, 2026-08-30) — server shell, client islands (a full page)
 # ---------------------------------------------------------------------
 fig, ax = plt.subplots(figsize=(9.4, 6.2))
 ax.set_xlim(0, 9.4)
@@ -143,7 +143,7 @@ ax.text(4.7, 0.25,
         fontsize=8, color=ACCENT, style="italic", ha="center")
 
 plt.tight_layout()
-fig.savefig(os.path.join(OUT, "fig_3_2_server_shell_islands.png"), dpi=180, facecolor="white")
+fig.savefig(os.path.join(OUT, "fig_3_8_server_shell_islands.png"), dpi=180, facecolor="white")
 plt.close(fig)
 
 print("wrote figures to", OUT)
