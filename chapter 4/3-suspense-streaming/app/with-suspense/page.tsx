@@ -1,0 +1,21 @@
+export const dynamic = "force-dynamic";
+
+import { Suspense } from "react";
+import { getProduct } from "@/lib/mock-data";
+import Reviews from "./Reviews";
+
+export default async function WithSuspensePage() {
+  const product = await getProduct("1");
+
+  return (
+    <article>
+      <h1>{product.name}</h1>
+      <section>
+        <h2>Reviews</h2>
+        <Suspense fallback={<p>Loading reviews...</p>}>
+          <Reviews productId="1" />
+        </Suspense>
+      </section>
+    </article>
+  );
+}
