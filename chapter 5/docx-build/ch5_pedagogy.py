@@ -71,22 +71,22 @@ MCQS = [
             "A copy of the function's code, minified",
             "An opaque ID plus the machinery to send a request carrying it",
             "A WebSocket subscription",
-            "A Route Handler at /api/actions",
+            "A Route Handler at `/api/actions`",
         ],
         "answer": "B",
     },
     {
         "question": "Inside a Server Action that saves the reader's own review, which call gives read-your-writes behavior in Next.js 16?",
         "options": [
-            "revalidateTag(\"reviews\")",
-            "revalidateTag(\"reviews\", \"max\")",
-            "updateTag(\"reviews\")",
-            "refresh()",
+            "`revalidateTag(\"reviews\")`",
+            "`revalidateTag(\"reviews\", \"max\")`",
+            "`updateTag(\"reviews\")`",
+            "`refresh()`",
         ],
         "answer": "C",
     },
     {
-        "question": "Why does a validating action return the reader's input as values?",
+        "question": "Why does a validating action return the reader's input as `values`?",
         "options": [
             "React 19 resets uncontrolled fields after the action finishes, even when it returns an error",
             "Zod requires it to report field errors",
@@ -96,7 +96,7 @@ MCQS = [
         "answer": "A",
     },
     {
-        "question": "Which statement about arguments bound with .bind is true?",
+        "question": "Which statement about arguments bound with `.bind` is true?",
         "options": [
             "They are encrypted and cannot be read by the browser",
             "They never leave the server",
@@ -116,7 +116,7 @@ MCQS = [
         "answer": "C",
     },
     {
-        "question": "What is the main reason proxy.ts cannot be the only authorization check?",
+        "question": "What is the main reason `proxy.ts` cannot be the only authorization check?",
         "options": [
             "It runs too late in the request",
             "It cannot read cookies",
@@ -126,7 +126,7 @@ MCQS = [
         "answer": "C",
     },
     {
-        "question": "With useOptimistic called inside a useActionState action, how long does the optimistic entry stay on screen?",
+        "question": "With `useOptimistic` called inside a `useActionState` action, how long does the optimistic entry stay on screen?",
         "options": [
             "Until the next page navigation",
             "Exactly as long as the action is running",
@@ -146,7 +146,7 @@ MCQS = [
         "answer": "C",
     },
     {
-        "question": "Why must redirect() be kept outside a broad try/catch block?",
+        "question": "Why must `redirect()` be kept outside a broad `try`/`catch` block?",
         "options": [
             "It is slower inside a try block",
             "It works by throwing a special signal that a broad catch would swallow",
@@ -169,13 +169,13 @@ MCQS = [
 
 QUESTIONS = [
     "Explain why a Server Action should be treated as a public HTTP endpoint, using what is visible in the browser's Network tab.",
-    "Compare a Route Handler called with fetch and router.refresh() with a Server Action that calls updateTag. What does each one cost the reader who just submitted the form?",
+    "Compare a Route Handler called with `fetch` and `router.refresh()` with a Server Action that calls `updateTag`. What does each one cost the reader who just submitted the form?",
     "What is the difference between shape validation and domain validation? Give an example of each from a review form.",
     "Describe what Next.js protects automatically for Server Actions and what it leaves to the application.",
     "Why is an inline Server Action that captures a secret from its surrounding component a poor choice, even though captured values are encrypted?",
-    "Explain the insecure direct object reference problem and two properties of a scoped deleteMany that solve it.",
+    "Explain the insecure direct object reference problem and two properties of a scoped `deleteMany` that solve it.",
     "Which three questions decide whether an interaction should be optimistic? Apply them to a coupon code field.",
-    "What does the outbox pattern guarantee that sending an email directly from an action cannot, and when is after() good enough instead?",
+    "What does the outbox pattern guarantee that sending an email directly from an action cannot, and when is `after()` good enough instead?",
     "How does an idempotency key make a double-submitted checkout safe, and why is the unique constraint on the user ID and key together rather than the key alone?",
     "Summarize the six server-side steps of a mutation in order, and explain what goes wrong if authorization runs after the write.",
 ]
@@ -188,11 +188,11 @@ ASSIGNMENTS = [
 
 KEY_TERMS = {
     "Server Action": "A Server Function passed to a form's action prop or called from inside an action, used to perform a mutation; each call is a POST request carrying an action ID and serialized arguments.",
-    "Server Function": "React's umbrella term for any function marked \"use server\" that client code can call.",
+    "Server Function": "React's umbrella term for any function marked `\"use server\"` that client code can call.",
     "Progressive enhancement": "Building a form so it works as plain HTML first, with JavaScript improving it rather than being required for it to work.",
-    "useActionState": "A React 19 hook that wraps an action so its return value becomes state the component renders.",
-    "useFormStatus": "A react-dom hook that reports whether the enclosing form is submitting, and the data being submitted.",
-    "updateTag": "A Next.js 16 function, available only in Server Actions, that expires cached entries for a tag so the next read waits for fresh data.",
+    "`useActionState`": "A React 19 hook that wraps an action so its return value becomes state the component renders.",
+    "`useFormStatus`": "A `react-dom` hook that reports whether the enclosing form is submitting, and the data being submitted.",
+    "`updateTag`": "A Next.js 16 function, available only in Server Actions, that expires cached entries for a tag so the next read waits for fresh data.",
     "Shape validation": "Checking that input is well-formed, such as types, ranges, and lengths, without consulting current data.",
     "Domain validation": "Checking that input makes sense against current data, such as whether a referenced product exists.",
     "Mass assignment": "A vulnerability in which extra fields sent by a client are written to the database because the whole submission was passed to a write.",

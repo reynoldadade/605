@@ -108,6 +108,31 @@ class Ch5(ChapterBuilder):
         _set_font(p.add_run(")"), FONT_PROSE, SZ_CONTENT)
         self.doc.add_paragraph()
 
+    def add_mcqs(self, questions):
+        self.add_heading("Multiple Choice Questions", level=2)
+        for i, q in enumerate(questions, 1):
+            self.para(f"{i}. {q['question']}")
+            for letter, option in zip("ABCD", q["options"]):
+                self.para(f"{letter}. {option}")
+        self.add_heading("Answer", level=3)
+        for i, q in enumerate(questions, 1):
+            self.add_body_paragraph(f"{i}  {q['answer']}")
+
+    def add_questions(self, questions):
+        self.add_heading("Questions", level=2)
+        for i, q in enumerate(questions, 1):
+            self.para(f"{i}. {q}")
+
+    def add_key_terms(self, terms):
+        """Key terms are keywords being introduced: Consolas 10 bold
+        (publisher correction 2026-09-15); definitions in Lora 11."""
+        self.add_heading("Key Terms", level=2)
+        for term, definition in terms.items():
+            p = self.doc.add_paragraph()
+            _set_font(p.add_run(term.replace("`", "") + ":"), FONT_CODE, SZ_KEYWORD, bold=True)
+            _set_font(p.add_run(" "), FONT_PROSE, SZ_CONTENT)
+            write_runs(p, runs_of(definition))
+
     def callout(self, label, body):
         table = self.doc.add_table(rows=1, cols=1)
         table.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -240,6 +265,8 @@ def build():
         ch.para(f"{n}. {a}")
     ch.add_key_terms(P.KEY_TERMS)
     ch.save(OUT)
+    from fonts_finalize import finalize
+    finalize(OUT)
     print("saved", OUT)
 
 
