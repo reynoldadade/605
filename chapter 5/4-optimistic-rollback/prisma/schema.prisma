@@ -1,0 +1,89 @@
+// Shared by every Chapter 5 example. SQLite keeps the examples
+// self-contained; the Prisma calls are identical on PostgreSQL or MySQL.
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id      String     @id
+  name    String
+  email   String
+  role    String     @default("customer") // "customer" | "admin"
+  reviews Review[]
+  orders  Order[]
+  cart    CartItem[]
+}
+
+model Product {
+  id            String      @id
+  name          String
+  price         Int // in cents
+  stock         Int
+  ratingAverage Float       @default(0)
+  ratingCount   Int         @default(0)
+  reviews       Review[]
+  orderItems    OrderItem[]
+  cartItems     CartItem[]
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  productId String
+  authorId  String?
+  rating    Int
+  text      String
+  createdAt DateTime @default(now())
+  product   Product  @relation(fields: [productId], references: [id])
+  author    User?    @relation(fields: [authorId], references: [id])
+
+  // One review per reader per product (section 9).
+  @@unique([productId, authorId])
+}
+
+model Order {
+  id             String      @id @default(cuid())
+  userId         String
+  status         String // "pending" | "paid" | "cancelled"
+  total          Int
+  idempotencyKey String
+  chargeId       String?
+  createdAt      DateTime    @default(now())
+  user           User        @relation(fields: [userId], references: [id])
+  items          OrderItem[]
+
+  // A retried checkout with the same key finds the same order (section 9).
+  @@unique([userId, idempotencyKey])
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  productId String
+  quantity  Int
+  price     Int
+  order     Order   @relation(fields: [orderId], references: [id])
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model CartItem {
+  userId    String
+  productId String
+  quantity  Int
+  user      User    @relation(fields: [userId], references: [id])
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@id([userId, productId])
+}
+
+model Outbox {
+  id        String    @id @default(cuid())
+  type      String
+  payload   String
+  createdAt DateTime  @default(now())
+  sentAt    DateTime?
+}

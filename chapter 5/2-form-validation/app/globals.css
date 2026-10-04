@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; max-width: 44rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+form { display: grid; gap: 0.5rem; margin: 1rem 0; }
+textarea { min-height: 5rem; }
+.review { border-top: 1px solid #ddd; padding: 0.5rem 0; }
+.review--pending { opacity: 0.55; }
+.field-error { color: #b00020; margin: 0; }
+[role="status"] { font-weight: 600; }
+.muted { color: #666; font-size: 0.9em; }
