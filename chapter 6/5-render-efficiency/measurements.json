@@ -1,0 +1,102 @@
+[
+  {
+    "variant": "compiler off",
+    "route": "/search/plain",
+    "worstKeystrokeMs": 368,
+    "runs": [
+      384,
+      360,
+      368
+    ]
+  },
+  {
+    "variant": "compiler off",
+    "route": "/search/deferred",
+    "worstKeystrokeMs": 256,
+    "runs": [
+      240,
+      256,
+      280
+    ]
+  },
+  {
+    "variant": "compiler off",
+    "route": "/search/bounded",
+    "worstKeystrokeMs": 40,
+    "runs": [
+      48,
+      40,
+      32
+    ]
+  },
+  {
+    "variant": "compiler off",
+    "route": "/tabs/conditional",
+    "textareaAfterSwitch": ""
+  },
+  {
+    "variant": "compiler off",
+    "route": "/tabs/activity",
+    "textareaAfterSwitch": "Does it run small?"
+  },
+  {
+    "variant": "compiler off",
+    "route": "/stock/dependency",
+    "subscriptionsAfter3Toggles": 4
+  },
+  {
+    "variant": "compiler off",
+    "route": "/stock/effect-event",
+    "subscriptionsAfter3Toggles": 1
+  },
+  {
+    "variant": "compiler on",
+    "route": "/search/plain",
+    "worstKeystrokeMs": 304,
+    "runs": [
+      256,
+      344,
+      304
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "route": "/search/deferred",
+    "worstKeystrokeMs": 168,
+    "runs": [
+      168,
+      168,
+      144
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "route": "/search/bounded",
+    "worstKeystrokeMs": 24,
+    "runs": [
+      24,
+      32,
+      24
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "route": "/tabs/conditional",
+    "textareaAfterSwitch": ""
+  },
+  {
+    "variant": "compiler on",
+    "route": "/tabs/activity",
+    "textareaAfterSwitch": "Does it run small?"
+  },
+  {
+    "variant": "compiler on",
+    "route": "/stock/dependency",
+    "subscriptionsAfter3Toggles": 4
+  },
+  {
+    "variant": "compiler on",
+    "route": "/stock/effect-event",
+    "subscriptionsAfter3Toggles": 1
+  }
+]

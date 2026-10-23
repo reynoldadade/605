@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+.results { display: grid; grid-template-columns: repeat(4, 1fr); gap: .25rem; }
+.result { border: 1px solid #ddd; padding: .25rem; font-size: 12px; }
+[role=tablist] button[aria-selected=true] { font-weight: bold; }

@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "compiler off",
+    "page": "/purity",
+    "times": [
+      "Prices checked at 04:41:50.059",
+      "Prices checked at 04:41:51.935",
+      "Prices checked at 04:41:53.072"
+    ],
+    "buttonText": "Re-render (2)"
+  },
+  {
+    "variant": "compiler off",
+    "page": "/mutation",
+    "count": "4 items",
+    "listed": [
+      "Extra item 1: $5",
+      "Extra item 2: $6",
+      "Running socks: $19",
+      "Trail shoe: $129"
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "page": "/purity",
+    "times": [
+      "Prices checked at 04:42:07.021",
+      "Prices checked at 04:42:07.021",
+      "Prices checked at 04:42:07.021"
+    ],
+    "buttonText": "Re-render (2)"
+  },
+  {
+    "variant": "compiler on",
+    "page": "/mutation",
+    "count": "4 items",
+    "listed": [
+      "Running socks: $19",
+      "Trail shoe: $129"
+    ]
+  }
+]

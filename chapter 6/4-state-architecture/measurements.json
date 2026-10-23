@@ -1,0 +1,221 @@
+[
+  {
+    "variant": "compiler off",
+    "route": "/derive/effect",
+    "action": "slider moved 5 steps",
+    "commits": 10,
+    "total": 260,
+    "counts": {
+      "ProductGrid": 10,
+      "PriceSlider": 10,
+      "ProductCard": 240
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/derive/calculated",
+    "action": "slider moved 5 steps",
+    "commits": 5,
+    "total": 130,
+    "counts": {
+      "ProductGrid": 5,
+      "PriceSlider": 5,
+      "ProductCard": 120
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/single",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 28,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/single",
+    "action": "add one item",
+    "commits": 1,
+    "total": 28,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/split",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 27,
+    "counts": {
+      "CartProvider": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/split",
+    "action": "add one item",
+    "commits": 1,
+    "total": 28,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/store",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 2,
+    "counts": {
+      "DrawerToggle": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/cart/store",
+    "action": "add one item",
+    "commits": 1,
+    "total": 2,
+    "counts": {
+      "CartCount": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/product/p1",
+    "action": "open disclosure",
+    "commits": 1,
+    "total": 1,
+    "counts": {
+      "Disclosure": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/derive/effect",
+    "action": "slider moved 5 steps",
+    "commits": 10,
+    "total": 135,
+    "counts": {
+      "ProductGrid": 10,
+      "PriceSlider": 5,
+      "ProductCard": 120
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/derive/calculated",
+    "action": "slider moved 5 steps",
+    "commits": 5,
+    "total": 130,
+    "counts": {
+      "ProductGrid": 5,
+      "PriceSlider": 5,
+      "ProductCard": 120
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/single",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 28,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/single",
+    "action": "add one item",
+    "commits": 1,
+    "total": 28,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1,
+      "AddToCart": 24
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/split",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 3,
+    "counts": {
+      "CartProvider": 1,
+      "DrawerToggle": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/split",
+    "action": "add one item",
+    "commits": 1,
+    "total": 3,
+    "counts": {
+      "CartProvider": 1,
+      "CartCount": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/store",
+    "action": "open drawer",
+    "commits": 1,
+    "total": 2,
+    "counts": {
+      "DrawerToggle": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/cart/store",
+    "action": "add one item",
+    "commits": 1,
+    "total": 2,
+    "counts": {
+      "CartCount": 1,
+      "CartDrawer": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/product/p1",
+    "action": "open disclosure",
+    "commits": 1,
+    "total": 1,
+    "counts": {
+      "Disclosure": 1
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "rsc-ch6-1-compiler-output",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node scripts/compile.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "8.0.7",
+    "@babel/plugin-syntax-jsx": "8.0.1",
+    "@babel/preset-typescript": "8.0.7",
+    "babel-plugin-react-compiler": "1.0.0"
+  }
+}

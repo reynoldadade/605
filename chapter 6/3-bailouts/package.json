@@ -1,0 +1,35 @@
+{
+  "name": "rsc-ch6-3-bailouts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-mangling",
+    "build:no-compiler": "REACT_COMPILER=0 next build --no-mangling",
+    "start": "next start",
+    "lint": "eslint app",
+    "compile-report": "node scripts/compile-report.mjs",
+    "compile-report:annotation": "node scripts/compile-report.mjs --annotation",
+    "measure": "tsx scripts/measure.mts"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "8.0.7",
+    "@babel/plugin-syntax-jsx": "8.0.1",
+    "@babel/preset-typescript": "8.0.7",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "playwright": "^1.56.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.46.0"
+  }
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "variant": "compiler off",
+    "route": "/before/catalogue",
+    "domNodes": 29641,
+    "scriptKB": 179,
+    "fetchedDataKB": 380,
+    "countdownChanged": true,
+    "typing": {
+      "commits": 20,
+      "total": 18049,
+      "counts": {
+        "CataloguePage": 20,
+        "SaleBanner": 20,
+        "ProductCard": 18009
+      }
+    },
+    "typingApp": {
+      "commits": 20,
+      "total": 18049,
+      "counts": {
+        "CataloguePage": 20,
+        "SaleBanner": 20,
+        "ProductCard": 18009
+      }
+    },
+    "compareToggle": {
+      "commits": 1,
+      "total": 4935,
+      "counts": {
+        "CataloguePage": 1,
+        "SaleBanner": 1,
+        "ProductCard": 4933
+      }
+    },
+    "worstKeystrokeMs": 800,
+    "worstRuns": [
+      816,
+      800,
+      776
+    ]
+  },
+  {
+    "variant": "compiler off",
+    "route": "/after/catalogue",
+    "domNodes": 190,
+    "scriptKB": 183,
+    "fetchedDataKB": 0,
+    "countdownChanged": true,
+    "typing": {
+      "commits": 17,
+      "total": 64,
+      "counts": {
+        "FilterBar": 12,
+        "SaleCountdown": 5,
+        "Router": 1,
+        "HistoryUpdater": 1,
+        "RootErrorBoundary": 1,
+        "ErrorBoundary": 4,
+        "ErrorBoundaryHandler": 1,
+        "RedirectBoundary": 4,
+        "RedirectErrorBoundary": 4,
+        "Head": 2,
+        "__next_root_layout_boundary__": 1,
+        "OuterLayoutRouter": 3,
+        "RenderFromTemplateContext": 3,
+        "ScrollHandler": 3,
+        "InnerScrollHandler": 3,
+        "LoadingBoundary": 3,
+        "HTTPAccessFallbackBoundary": 3,
+        "HTTPAccessFallbackErrorBoundary": 1,
+        "InnerLayoutRouter": 3,
+        "CartBadge": 1,
+        "CompareTray": 1,
+        "__next_outlet_boundary__": 1,
+        "AppRouterAnnouncer": 1,
+        "__next_viewport_boundary__": 1,
+        "__next_metadata_boundary__": 1
+      }
+    },
+    "typingApp": {
+      "commits": 17,
+      "total": 19,
+      "counts": {
+        "FilterBar": 12,
+        "SaleCountdown": 5,
+        "CartBadge": 1,
+        "CompareTray": 1
+      }
+    },
+    "compareToggle": {
+      "commits": 1,
+      "total": 2,
+      "counts": {
+        "CompareTray": 1,
+        "CompareToggle": 1
+      }
+    },
+    "worstKeystrokeMs": 24,
+    "worstRuns": [
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "route": "/before/catalogue",
+    "domNodes": 29641,
+    "scriptKB": 180,
+    "fetchedDataKB": 380,
+    "countdownChanged": false,
+    "typing": {
+      "commits": 20,
+      "total": 6558,
+      "counts": {
+        "CataloguePage": 20,
+        "ProductCard": 6538
+      }
+    },
+    "typingApp": {
+      "commits": 20,
+      "total": 6558,
+      "counts": {
+        "CataloguePage": 20,
+        "ProductCard": 6538
+      }
+    },
+    "compareToggle": {
+      "commits": 1,
+      "total": 4934,
+      "counts": {
+        "CataloguePage": 1,
+        "ProductCard": 4933
+      }
+    },
+    "worstKeystrokeMs": 728,
+    "worstRuns": [
+      728,
+      728,
+      800
+    ]
+  },
+  {
+    "variant": "compiler on",
+    "route": "/after/catalogue",
+    "domNodes": 190,
+    "scriptKB": 184,
+    "fetchedDataKB": 0,
+    "countdownChanged": true,
+    "typing": {
+      "commits": 17,
+      "total": 64,
+      "counts": {
+        "FilterBar": 12,
+        "SaleCountdown": 5,
+        "Router": 1,
+        "HistoryUpdater": 1,
+        "RootErrorBoundary": 1,
+        "ErrorBoundary": 4,
+        "ErrorBoundaryHandler": 1,
+        "RedirectBoundary": 4,
+        "RedirectErrorBoundary": 4,
+        "Head": 2,
+        "__next_root_layout_boundary__": 1,
+        "OuterLayoutRouter": 3,
+        "RenderFromTemplateContext": 3,
+        "ScrollHandler": 3,
+        "InnerScrollHandler": 3,
+        "LoadingBoundary": 3,
+        "HTTPAccessFallbackBoundary": 3,
+        "HTTPAccessFallbackErrorBoundary": 1,
+        "InnerLayoutRouter": 3,
+        "CartBadge": 1,
+        "CompareTray": 1,
+        "__next_outlet_boundary__": 1,
+        "AppRouterAnnouncer": 1,
+        "__next_viewport_boundary__": 1,
+        "__next_metadata_boundary__": 1
+      }
+    },
+    "typingApp": {
+      "commits": 17,
+      "total": 19,
+      "counts": {
+        "FilterBar": 12,
+        "SaleCountdown": 5,
+        "CartBadge": 1,
+        "CompareTray": 1
+      }
+    },
+    "compareToggle": {
+      "commits": 1,
+      "total": 2,
+      "counts": {
+        "CompareTray": 1,
+        "CompareToggle": 1
+      }
+    },
+    "worstKeystrokeMs": 24,
+    "worstRuns": [
+      16,
+      24,
+      32
+    ]
+  }
+]

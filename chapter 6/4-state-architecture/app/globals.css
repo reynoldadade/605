@@ -1,0 +1,5 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+.card { border: 1px solid #ddd; padding: .5rem; }
+header { display: flex; justify-content: space-between; margin-bottom: 1rem; }
+aside { border: 1px solid #999; padding: .5rem; margin: 1rem 0; }

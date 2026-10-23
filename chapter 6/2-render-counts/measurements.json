@@ -1,0 +1,60 @@
+[
+  {
+    "variant": "compiler off",
+    "route": "/product/p1",
+    "commits": 10,
+    "total": 470,
+    "counts": {
+      "ProductIsland": 10,
+      "Gallery": 10,
+      "Thumb": 60,
+      "PriceBlock": 10,
+      "SizePicker": 10,
+      "SizeButton": 80,
+      "ReviewList": 10,
+      "ReviewItem": 120,
+      "Stars": 120,
+      "ReviewComposer": 10,
+      "StarPicker": 10,
+      "CharCount": 10,
+      "SubmitButton": 10
+    }
+  },
+  {
+    "variant": "compiler off",
+    "route": "/moved/p1",
+    "commits": 10,
+    "total": 50,
+    "counts": {
+      "LocalReviewComposer": 10,
+      "ReviewComposer": 10,
+      "StarPicker": 10,
+      "CharCount": 10,
+      "SubmitButton": 10
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/product/p1",
+    "commits": 10,
+    "total": 31,
+    "counts": {
+      "ProductIsland": 10,
+      "ReviewComposer": 10,
+      "CharCount": 10,
+      "SubmitButton": 1
+    }
+  },
+  {
+    "variant": "compiler on",
+    "route": "/moved/p1",
+    "commits": 10,
+    "total": 31,
+    "counts": {
+      "LocalReviewComposer": 10,
+      "ReviewComposer": 10,
+      "CharCount": 10,
+      "SubmitButton": 1
+    }
+  }
+]

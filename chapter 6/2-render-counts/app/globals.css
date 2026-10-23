@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; max-width: 60rem; }
+.gallery { display: flex; gap: .5rem; }
+.thumb { width: 64px; height: 64px; background: #ddd; display: grid; place-items: center; font-size: 11px; }
+.sizes button[aria-pressed="true"] { font-weight: bold; }
+.review { border-bottom: 1px solid #eee; padding: .5rem 0; }
+textarea { width: 100%; min-height: 6rem; }
