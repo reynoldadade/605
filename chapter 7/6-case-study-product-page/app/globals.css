@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; margin: 0; }
+header { padding: .75rem 1rem; border-bottom: 1px solid #ddd; }
+main { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; padding: 1rem; }
+@media (max-width: 768px) { main { grid-template-columns: 1fr; } }
+.hero img, .skeleton { width: 100%; height: auto; aspect-ratio: 1; display: block; }
+.skeleton { background: #eee; }
+.reviews li { margin-bottom: .5rem; }
+.price { font-size: 1.4rem; display: inline-block; min-width: 8ch; }
+.hero-text { min-height: 2.5rem; }
+.chat { position: fixed; right: 1rem; bottom: 1rem; }

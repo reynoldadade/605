@@ -1,0 +1,67 @@
+[
+  {
+    "scenario": "Client render error, caught by app/product/[id]/error.tsx",
+    "triggered": 5,
+    "reportsBySource": {
+      "server": 0,
+      "client": 0,
+      "boundary": 5
+    },
+    "boundaryMessages": [
+      "size chart failed to render"
+    ],
+    "digestsMatch": true,
+    "sampleClientStack": "Error: size chart failed to render |     at o (http://localhost:3705/_next/static/chunks/173pmwvwkc0md.js:1:185)"
+  },
+  {
+    "scenario": "Server Component error, caught by the same error.tsx",
+    "triggered": 5,
+    "reportsBySource": {
+      "server": 5,
+      "client": 0,
+      "boundary": 5
+    },
+    "boundaryMessages": [
+      "Minified React error #441; visit https://react.dev/errors/441 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "digestsMatch": true,
+    "serverRouteType": "render",
+    "sampleClientStack": "Error: Minified React error #441; visit https://react.dev/errors/441 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+  },
+  {
+    "scenario": "Client render error, no error.tsx (built-in boundary)",
+    "triggered": 5,
+    "reportsBySource": {
+      "server": 0,
+      "client": 5,
+      "boundary": 0
+    },
+    "boundaryMessages": [],
+    "digestsMatch": null,
+    "sampleClientStack": "Error: size chart failed to render |     at o (http://localhost:3705/_next/static/chunks/173pmwvwkc0md.js:1:185)"
+  },
+  {
+    "scenario": "Error thrown in an event handler",
+    "triggered": 5,
+    "reportsBySource": {
+      "server": 0,
+      "client": 5,
+      "boundary": 0
+    },
+    "boundaryMessages": [],
+    "digestsMatch": null,
+    "sampleClientStack": "Error: add to cart handler failed |     at onClick (http://localhost:3705/_next/static/chunks/3zbft--z--65g.js:1:266)"
+  },
+  {
+    "scenario": "Unhandled promise rejection",
+    "triggered": 5,
+    "reportsBySource": {
+      "server": 0,
+      "client": 5,
+      "boundary": 0
+    },
+    "boundaryMessages": [],
+    "digestsMatch": null,
+    "sampleClientStack": "Error: recommendations fetch failed |     at onClick (http://localhost:3705/_next/static/chunks/3zbft--z--65g.js:1:383)"
+  }
+]

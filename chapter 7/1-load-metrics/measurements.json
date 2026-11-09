@@ -1,0 +1,650 @@
+[
+  {
+    "version": "Hero in the shell, eager with high priority",
+    "path": "/product/trail-sock",
+    "lcpP75": 1124,
+    "fcpP75": 432,
+    "lcpElement": "html>body>main>div.hero>img",
+    "medianParts": {
+      "timeToFirstByte": 7,
+      "resourceLoadDelay": 211,
+      "resourceLoadDuration": 872,
+      "elementRenderDelay": 21
+    },
+    "largestPart": "resourceLoadDuration",
+    "runs": [
+      {
+        "lcp": 1144,
+        "fcp": 432,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 235,
+        "resourceLoadDuration": 884,
+        "elementRenderDelay": 18
+      },
+      {
+        "lcp": 1140,
+        "fcp": 432,
+        "ttfb": 10,
+        "cls": 0,
+        "timeToFirstByte": 10,
+        "resourceLoadDelay": 222,
+        "resourceLoadDuration": 888,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1128,
+        "fcp": 412,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 220,
+        "resourceLoadDuration": 874,
+        "elementRenderDelay": 28
+      },
+      {
+        "lcp": 1092,
+        "fcp": 428,
+        "ttfb": 19,
+        "cls": 0,
+        "timeToFirstByte": 19,
+        "resourceLoadDelay": 188,
+        "resourceLoadDuration": 855,
+        "elementRenderDelay": 30
+      },
+      {
+        "lcp": 1104,
+        "fcp": 440,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 205,
+        "resourceLoadDuration": 872,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1084,
+        "fcp": 432,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 207,
+        "resourceLoadDuration": 849,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1100,
+        "fcp": 452,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 212,
+        "resourceLoadDuration": 856,
+        "elementRenderDelay": 25
+      },
+      {
+        "lcp": 1112,
+        "fcp": 408,
+        "ttfb": 10,
+        "cls": 0,
+        "timeToFirstByte": 10,
+        "resourceLoadDelay": 206,
+        "resourceLoadDuration": 879,
+        "elementRenderDelay": 18
+      },
+      {
+        "lcp": 1076,
+        "fcp": 448,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 195,
+        "resourceLoadDuration": 852,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1112,
+        "fcp": 396,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 209,
+        "resourceLoadDuration": 876,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1076,
+        "fcp": 428,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 210,
+        "resourceLoadDuration": 840,
+        "elementRenderDelay": 19
+      },
+      {
+        "lcp": 1096,
+        "fcp": 408,
+        "ttfb": 9,
+        "cls": 0,
+        "timeToFirstByte": 9,
+        "resourceLoadDelay": 211,
+        "resourceLoadDuration": 855,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1120,
+        "fcp": 412,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 215,
+        "resourceLoadDuration": 878,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1096,
+        "fcp": 416,
+        "ttfb": 4,
+        "cls": 0,
+        "timeToFirstByte": 4,
+        "resourceLoadDelay": 207,
+        "resourceLoadDuration": 855,
+        "elementRenderDelay": 29
+      },
+      {
+        "lcp": 1096,
+        "fcp": 436,
+        "ttfb": 10,
+        "cls": 0,
+        "timeToFirstByte": 10,
+        "resourceLoadDelay": 212,
+        "resourceLoadDuration": 857,
+        "elementRenderDelay": 17
+      },
+      {
+        "lcp": 1140,
+        "fcp": 428,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 229,
+        "resourceLoadDuration": 883,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1124,
+        "fcp": 412,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 217,
+        "resourceLoadDuration": 878,
+        "elementRenderDelay": 24
+      },
+      {
+        "lcp": 1088,
+        "fcp": 412,
+        "ttfb": 10,
+        "cls": 0,
+        "timeToFirstByte": 10,
+        "resourceLoadDelay": 191,
+        "resourceLoadDuration": 863,
+        "elementRenderDelay": 24
+      },
+      {
+        "lcp": 1124,
+        "fcp": 416,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 219,
+        "resourceLoadDuration": 876,
+        "elementRenderDelay": 24
+      },
+      {
+        "lcp": 1144,
+        "fcp": 428,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 228,
+        "resourceLoadDuration": 888,
+        "elementRenderDelay": 23
+      }
+    ]
+  },
+  {
+    "version": "Hero in the shell, lazy-loaded (the default)",
+    "path": "/lazy/trail-sock",
+    "lcpP75": 1268,
+    "fcpP75": 420,
+    "lcpElement": "html>body>main>div.hero>img",
+    "medianParts": {
+      "timeToFirstByte": 6,
+      "resourceLoadDelay": 536,
+      "resourceLoadDuration": 700,
+      "elementRenderDelay": 21
+    },
+    "largestPart": "resourceLoadDuration",
+    "runs": [
+      {
+        "lcp": 1256,
+        "fcp": 400,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 529,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1264,
+        "fcp": 404,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 538,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1280,
+        "fcp": 444,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 547,
+        "resourceLoadDuration": 707,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1264,
+        "fcp": 412,
+        "ttfb": 9,
+        "cls": 0,
+        "timeToFirstByte": 9,
+        "resourceLoadDelay": 534,
+        "resourceLoadDuration": 701,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1252,
+        "fcp": 396,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 523,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 23
+      },
+      {
+        "lcp": 1256,
+        "fcp": 404,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 531,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1256,
+        "fcp": 396,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 528,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 22
+      },
+      {
+        "lcp": 1264,
+        "fcp": 420,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 536,
+        "resourceLoadDuration": 701,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1276,
+        "fcp": 432,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 540,
+        "resourceLoadDuration": 707,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1256,
+        "fcp": 412,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 523,
+        "resourceLoadDuration": 708,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1260,
+        "fcp": 400,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 528,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 25
+      },
+      {
+        "lcp": 1264,
+        "fcp": 408,
+        "ttfb": 4,
+        "cls": 0,
+        "timeToFirstByte": 4,
+        "resourceLoadDelay": 538,
+        "resourceLoadDuration": 701,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1256,
+        "fcp": 408,
+        "ttfb": 13,
+        "cls": 0,
+        "timeToFirstByte": 13,
+        "resourceLoadDelay": 524,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 20
+      },
+      {
+        "lcp": 1268,
+        "fcp": 404,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 543,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 18
+      },
+      {
+        "lcp": 1264,
+        "fcp": 416,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 538,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 21
+      },
+      {
+        "lcp": 1272,
+        "fcp": 420,
+        "ttfb": 11,
+        "cls": 0,
+        "timeToFirstByte": 11,
+        "resourceLoadDelay": 540,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 22
+      },
+      {
+        "lcp": 1268,
+        "fcp": 420,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 538,
+        "resourceLoadDuration": 700,
+        "elementRenderDelay": 22
+      },
+      {
+        "lcp": 1288,
+        "fcp": 440,
+        "ttfb": 16,
+        "cls": 0,
+        "timeToFirstByte": 16,
+        "resourceLoadDelay": 537,
+        "resourceLoadDuration": 713,
+        "elementRenderDelay": 24
+      },
+      {
+        "lcp": 1256,
+        "fcp": 420,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 532,
+        "resourceLoadDuration": 699,
+        "elementRenderDelay": 18
+      },
+      {
+        "lcp": 1280,
+        "fcp": 428,
+        "ttfb": 9,
+        "cls": 0,
+        "timeToFirstByte": 9,
+        "resourceLoadDelay": 540,
+        "resourceLoadDuration": 714,
+        "elementRenderDelay": 17
+      }
+    ]
+  },
+  {
+    "version": "Hero inside a Suspense boundary that waits 800 ms",
+    "path": "/suspended/trail-sock",
+    "lcpP75": 1484,
+    "fcpP75": 416,
+    "lcpElement": "html>body>main>div.hero>img",
+    "medianParts": {
+      "timeToFirstByte": 7,
+      "resourceLoadDelay": 814,
+      "resourceLoadDuration": 485,
+      "elementRenderDelay": 160
+    },
+    "largestPart": "resourceLoadDelay",
+    "runs": [
+      {
+        "lcp": 1456,
+        "fcp": 416,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 816,
+        "resourceLoadDuration": 483,
+        "elementRenderDelay": 151
+      },
+      {
+        "lcp": 1540,
+        "fcp": 432,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 820,
+        "resourceLoadDuration": 500,
+        "elementRenderDelay": 214
+      },
+      {
+        "lcp": 1484,
+        "fcp": 416,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 815,
+        "resourceLoadDuration": 489,
+        "elementRenderDelay": 173
+      },
+      {
+        "lcp": 1488,
+        "fcp": 416,
+        "ttfb": 15,
+        "cls": 0,
+        "timeToFirstByte": 15,
+        "resourceLoadDelay": 815,
+        "resourceLoadDuration": 478,
+        "elementRenderDelay": 180
+      },
+      {
+        "lcp": 1460,
+        "fcp": 392,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 816,
+        "resourceLoadDuration": 463,
+        "elementRenderDelay": 174
+      },
+      {
+        "lcp": 1472,
+        "fcp": 408,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 810,
+        "resourceLoadDuration": 489,
+        "elementRenderDelay": 166
+      },
+      {
+        "lcp": 1460,
+        "fcp": 420,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 826,
+        "resourceLoadDuration": 491,
+        "elementRenderDelay": 139
+      },
+      {
+        "lcp": 1484,
+        "fcp": 412,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 816,
+        "resourceLoadDuration": 485,
+        "elementRenderDelay": 178
+      },
+      {
+        "lcp": 1448,
+        "fcp": 408,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 814,
+        "resourceLoadDuration": 491,
+        "elementRenderDelay": 136
+      },
+      {
+        "lcp": 1484,
+        "fcp": 412,
+        "ttfb": 4,
+        "cls": 0,
+        "timeToFirstByte": 4,
+        "resourceLoadDelay": 812,
+        "resourceLoadDuration": 489,
+        "elementRenderDelay": 179
+      },
+      {
+        "lcp": 1448,
+        "fcp": 404,
+        "ttfb": 9,
+        "cls": 0,
+        "timeToFirstByte": 9,
+        "resourceLoadDelay": 813,
+        "resourceLoadDuration": 484,
+        "elementRenderDelay": 142
+      },
+      {
+        "lcp": 1424,
+        "fcp": 396,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 812,
+        "resourceLoadDuration": 474,
+        "elementRenderDelay": 132
+      },
+      {
+        "lcp": 1472,
+        "fcp": 420,
+        "ttfb": 7,
+        "cls": 0,
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 810,
+        "resourceLoadDuration": 497,
+        "elementRenderDelay": 158
+      },
+      {
+        "lcp": 1420,
+        "fcp": 392,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 813,
+        "resourceLoadDuration": 474,
+        "elementRenderDelay": 128
+      },
+      {
+        "lcp": 1464,
+        "fcp": 412,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 814,
+        "resourceLoadDuration": 481,
+        "elementRenderDelay": 165
+      },
+      {
+        "lcp": 1464,
+        "fcp": 412,
+        "ttfb": 12,
+        "cls": 0,
+        "timeToFirstByte": 12,
+        "resourceLoadDelay": 812,
+        "resourceLoadDuration": 485,
+        "elementRenderDelay": 156
+      },
+      {
+        "lcp": 1476,
+        "fcp": 432,
+        "ttfb": 8,
+        "cls": 0,
+        "timeToFirstByte": 8,
+        "resourceLoadDelay": 817,
+        "resourceLoadDuration": 491,
+        "elementRenderDelay": 161
+      },
+      {
+        "lcp": 1512,
+        "fcp": 404,
+        "ttfb": 5,
+        "cls": 0,
+        "timeToFirstByte": 5,
+        "resourceLoadDelay": 809,
+        "resourceLoadDuration": 489,
+        "elementRenderDelay": 209
+      },
+      {
+        "lcp": 1460,
+        "fcp": 404,
+        "ttfb": 6,
+        "cls": 0,
+        "timeToFirstByte": 6,
+        "resourceLoadDelay": 815,
+        "resourceLoadDuration": 480,
+        "elementRenderDelay": 160
+      },
+      {
+        "lcp": 1460,
+        "fcp": 420,
+        "ttfb": 9,
+        "cls": 0,
+        "timeToFirstByte": 9,
+        "resourceLoadDelay": 810,
+        "resourceLoadDuration": 500,
+        "elementRenderDelay": 142
+      }
+    ]
+  }
+]

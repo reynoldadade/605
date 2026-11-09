@@ -1,0 +1,241 @@
+{
+  "serverTiming": [
+    [
+      {
+        "name": "traceparent",
+        "description": "00-162e886e08c668e8faa173c892efe8c1-46bec65d815216aa-01"
+      }
+    ],
+    [
+      {
+        "name": "traceparent",
+        "description": "00-264bf13cffd6a87f372545dd924eeab5-584a4dfae1718e56-01"
+      }
+    ],
+    [
+      {
+        "name": "traceparent",
+        "description": "00-f86138eabf74a20928a270df93e33e08-cf8e8ee91903cc8a-01"
+      }
+    ]
+  ],
+  "rootSpanNames": [
+    "storefront: load instrumentation module (Instrumentation.loadModule)",
+    "storefront: register instrumentation (Instrumentation.register)",
+    "storefront: load route module (LoadComponents.loadRouteModule)",
+    "storefront: GET / (BaseServer.handleRequest)",
+    "storefront: GET (BaseServer.handleRequest)",
+    "storefront: POST (BaseServer.handleRequest)",
+    "storefront: GET /boom (BaseServer.handleRequest)"
+  ],
+  "trace": [
+    {
+      "service": "storefront",
+      "name": "GET",
+      "startMs": 0,
+      "durationMs": 3,
+      "spanId": "cefd353543dfaa58",
+      "parentSpanId": null,
+      "nextSpanType": "BaseServer.handleRequest"
+    },
+    {
+      "service": "storefront",
+      "name": "middleware GET",
+      "startMs": 2,
+      "durationMs": 0,
+      "spanId": "cf8e8ee91903cc8a",
+      "parentSpanId": "cefd353543dfaa58",
+      "nextSpanType": "Middleware.execute"
+    },
+    {
+      "service": "storefront",
+      "name": "resolve page components",
+      "startMs": 3,
+      "durationMs": 0,
+      "spanId": "95b2e82ea9fa9753",
+      "parentSpanId": "1763d78395e74537",
+      "nextSpanType": "NextNodeServer.findPageComponents"
+    },
+    {
+      "service": "storefront",
+      "name": "GET /product/[id]",
+      "startMs": 3,
+      "durationMs": 625,
+      "spanId": "1763d78395e74537",
+      "parentSpanId": "cefd353543dfaa58",
+      "nextSpanType": "BaseServer.handleRequest"
+    },
+    {
+      "service": "storefront",
+      "name": "load route module",
+      "startMs": 4,
+      "durationMs": 0,
+      "spanId": "4354aefec6f09658",
+      "parentSpanId": "95b2e82ea9fa9753",
+      "nextSpanType": "LoadComponents.loadRouteModule"
+    },
+    {
+      "service": "storefront",
+      "name": "prepare route module",
+      "startMs": 4,
+      "durationMs": 1,
+      "spanId": "fdbeecf0753cba9c",
+      "parentSpanId": "1763d78395e74537",
+      "nextSpanType": "RouteModule.prepare"
+    },
+    {
+      "service": "storefront",
+      "name": "render route (app) /product/[id]",
+      "startMs": 7,
+      "durationMs": 618,
+      "spanId": "5fd8db1b43c8a176",
+      "parentSpanId": "1763d78395e74537",
+      "nextSpanType": "AppRender.getBodyResult"
+    },
+    {
+      "service": "storefront",
+      "name": "resolve segment modules",
+      "startMs": 8,
+      "durationMs": 1,
+      "spanId": "e478e3c9bbe16933",
+      "parentSpanId": "c6d4f3b5c63ed286",
+      "nextSpanType": "NextNodeServer.getLayoutOrPageModule"
+    },
+    {
+      "service": "storefront",
+      "name": "build component tree",
+      "startMs": 8,
+      "durationMs": 6,
+      "spanId": "c6d4f3b5c63ed286",
+      "parentSpanId": "5fd8db1b43c8a176",
+      "nextSpanType": "NextNodeServer.createComponentTree"
+    },
+    {
+      "service": "storefront",
+      "name": "start response",
+      "startMs": 9,
+      "durationMs": 0,
+      "spanId": "a49ec5f65b3ac688",
+      "parentSpanId": "1763d78395e74537",
+      "nextSpanType": "NextNodeServer.startResponse"
+    },
+    {
+      "service": "storefront",
+      "name": "resolve segment modules",
+      "startMs": 10,
+      "durationMs": 0,
+      "spanId": "1e338fc31fc33eb5",
+      "parentSpanId": "c6d4f3b5c63ed286",
+      "nextSpanType": "NextNodeServer.getLayoutOrPageModule"
+    },
+    {
+      "service": "storefront",
+      "name": "fetch GET http://localhost:4001/reviews/trail-sock",
+      "startMs": 21,
+      "durationMs": 125,
+      "spanId": "19f5d6db852311cd",
+      "parentSpanId": "0e61521f7a6266d7"
+    },
+    {
+      "service": "storefront",
+      "name": "getReviews",
+      "startMs": 21,
+      "durationMs": 126,
+      "spanId": "0e61521f7a6266d7",
+      "parentSpanId": "5fd8db1b43c8a176"
+    },
+    {
+      "service": "storefront",
+      "name": "getRecommendations",
+      "startMs": 23,
+      "durationMs": 601,
+      "spanId": "bf2f7447c98e13e7",
+      "parentSpanId": "5fd8db1b43c8a176"
+    },
+    {
+      "service": "reviews",
+      "name": "GET /reviews/:id",
+      "startMs": 24,
+      "durationMs": 149,
+      "spanId": "760c20d94170a859",
+      "parentSpanId": "19f5d6db852311cd"
+    },
+    {
+      "service": "reviews",
+      "name": "SELECT reviews",
+      "startMs": 24,
+      "durationMs": 119,
+      "spanId": "d7845441ac4829aa",
+      "parentSpanId": "760c20d94170a859"
+    },
+    {
+      "service": "storefront",
+      "name": "NextNodeServer.clientComponentLoading",
+      "startMs": 25,
+      "durationMs": 3,
+      "spanId": "5874165d9b609435",
+      "parentSpanId": "1763d78395e74537",
+      "nextSpanType": "NextNodeServer.clientComponentLoading"
+    },
+    {
+      "service": "storefront",
+      "name": "resolve segment modules",
+      "startMs": 165,
+      "durationMs": 0,
+      "spanId": "8e91f3f82efa9127",
+      "parentSpanId": "411c386f33a95376",
+      "nextSpanType": "NextNodeServer.getLayoutOrPageModule"
+    },
+    {
+      "service": "storefront",
+      "name": "resolve segment modules",
+      "startMs": 165,
+      "durationMs": 0,
+      "spanId": "af1c561ed9937eb0",
+      "parentSpanId": "411c386f33a95376",
+      "nextSpanType": "NextNodeServer.getLayoutOrPageModule"
+    },
+    {
+      "service": "storefront",
+      "name": "build component tree",
+      "startMs": 165,
+      "durationMs": 1,
+      "spanId": "411c386f33a95376",
+      "parentSpanId": "5fd8db1b43c8a176",
+      "nextSpanType": "NextNodeServer.createComponentTree"
+    }
+  ],
+  "serverTimingTraceIdMatchesATrace": true,
+  "serverTimingMatchesPageRender": true,
+  "serverAction": {
+    "chain": [
+      "POST",
+      "POST /product/[id]",
+      "addToWishlist"
+    ],
+    "rootAttributes": {
+      "next.span_category": "nextjs",
+      "next.span_name": "POST",
+      "next.span_type": "BaseServer.handleRequest",
+      "http.method": "POST",
+      "http.target": "/product/trail-sock",
+      "http.status_code": 200,
+      "next.rsc": false,
+      "next.bubble": true,
+      "operation.name": "next_js.BaseServer.handleRequest"
+    }
+  },
+  "getProductSpansOnRequests": 0,
+  "reviewsServiceGotTraceparent": true,
+  "errors": [
+    {
+      "message": "boom: render failed",
+      "path": "/boom",
+      "routeType": "render",
+      "traceId": "6ac73653b10491e629e701e43771d35f"
+    }
+  ],
+  "errorTraceIdMatchesATrace": [
+    true
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rsc-ch7-4-tracing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "collector": "node services/collector.mjs",
+    "reviews": "node services/reviews.mjs",
+    "measure": "tsx scripts/measure.mts"
+  },
+  "dependencies": {
+    "@opentelemetry/api": ">=1.9.0 <1.10.0",
+    "@opentelemetry/api-logs": ">=0.200.0 <0.300.0",
+    "@opentelemetry/instrumentation": ">=0.200.0 <0.300.0",
+    "@opentelemetry/resources": "^2.0.0",
+    "@opentelemetry/sdk-logs": ">=0.200.0 <0.300.0",
+    "@opentelemetry/sdk-metrics": "^2.0.0",
+    "@opentelemetry/sdk-trace-base": "^2.0.0",
+    "@vercel/otel": "2.2.0",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "playwright": "1.63.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "web-vitals": "6.2.3"
+  }
+}

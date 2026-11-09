@@ -1,0 +1,116 @@
+{
+  "lab": {
+    "before": {
+      "desktopUnthrottledLcpP75": 772
+    },
+    "after": {
+      "desktopUnthrottledLcpP75": 100
+    }
+  },
+  "segments": {
+    "before": {
+      "mobile en-US": {
+        "LCP": 1372,
+        "INP": 104,
+        "CLS": 0,
+        "visits": 6
+      },
+      "mobile de-DE": {
+        "LCP": 1400,
+        "INP": 32,
+        "CLS": 0,
+        "visits": 7
+      },
+      "desktop en-US": {
+        "LCP": 764,
+        "INP": 224,
+        "CLS": 0.052,
+        "visits": 10
+      },
+      "desktop de-DE": {
+        "LCP": 896,
+        "INP": 248,
+        "CLS": 0.052,
+        "visits": 10
+      },
+      "lcpMobileMedianParts": {
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 632,
+        "resourceLoadDuration": 691,
+        "elementRenderDelay": 35
+      },
+      "inpMobileMedianParts": {
+        "inputDelay": 14,
+        "processingDuration": 1,
+        "presentationDelay": 5
+      },
+      "inpMobileScriptsSeen": {
+        "chat-widget.js": 9
+      }
+    },
+    "after": {
+      "mobile en-US": {
+        "LCP": 1160,
+        "INP": 24,
+        "CLS": 0,
+        "visits": 6
+      },
+      "mobile de-DE": {
+        "LCP": 1156,
+        "INP": 24,
+        "CLS": 0,
+        "visits": 7
+      },
+      "desktop en-US": {
+        "LCP": 156,
+        "INP": 16,
+        "CLS": 0,
+        "visits": 10
+      },
+      "desktop de-DE": {
+        "LCP": 108,
+        "INP": 16,
+        "CLS": 0,
+        "visits": 10
+      },
+      "lcpMobileMedianParts": {
+        "timeToFirstByte": 7,
+        "resourceLoadDelay": 189,
+        "resourceLoadDuration": 922,
+        "elementRenderDelay": 23
+      },
+      "inpMobileMedianParts": {
+        "inputDelay": 8,
+        "processingDuration": 1,
+        "presentationDelay": 10
+      },
+      "inpMobileScriptsSeen": {
+        "1rku6kcybia43.js?dpl=release-214": 1
+      }
+    }
+  },
+  "table": {
+    "before": {
+      "lcpP75Mobile": 1380,
+      "lcpLargestPartMobile": "resourceLoadDuration",
+      "inpP75Mobile": 96,
+      "clsP75DeDE": 0.052,
+      "clsP75Mobile": 0,
+      "hydrationMismatchesPer1000DeVisits": 1000,
+      "sectionFallbacksShown": 8,
+      "boundaryReports": 0,
+      "serverReports": 0
+    },
+    "after": {
+      "lcpP75Mobile": 1160,
+      "lcpLargestPartMobile": "resourceLoadDuration",
+      "inpP75Mobile": 24,
+      "clsP75DeDE": 0,
+      "clsP75Mobile": 0,
+      "hydrationMismatchesPer1000DeVisits": 0,
+      "sectionFallbacksShown": 8,
+      "boundaryReports": 8,
+      "serverReports": 8
+    }
+  }
+}

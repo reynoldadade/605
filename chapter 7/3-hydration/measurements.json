@@ -1,0 +1,154 @@
+[
+  {
+    "path": "/product/alpine-shell",
+    "locale": "en-US",
+    "price": "$1,299.00",
+    "hydrationErrorsPerLoad": 0,
+    "islandReadyMs": 390,
+    "cls": 0,
+    "sampleError": "",
+    "runs": {
+      "ready": [
+        403,
+        220,
+        421,
+        395,
+        384,
+        333,
+        390
+      ],
+      "cls": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "path": "/product/alpine-shell",
+    "locale": "de-DE",
+    "price": "1.299,00 $",
+    "hydrationErrorsPerLoad": 1,
+    "islandReadyMs": 450,
+    "cls": 0,
+    "sampleError": "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+    "runs": {
+      "ready": [
+        412,
+        486,
+        400,
+        470,
+        450,
+        394,
+        509
+      ],
+      "cls": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "path": "/fixed/alpine-shell",
+    "locale": "en-US",
+    "price": "$1,299.00",
+    "hydrationErrorsPerLoad": 0,
+    "islandReadyMs": 408,
+    "cls": 0,
+    "sampleError": "",
+    "runs": {
+      "ready": [
+        426,
+        417,
+        413,
+        355,
+        352,
+        408,
+        388
+      ],
+      "cls": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "path": "/fixed/alpine-shell",
+    "locale": "de-DE",
+    "price": "1.299,00 $",
+    "hydrationErrorsPerLoad": 0,
+    "islandReadyMs": 387,
+    "cls": 0,
+    "sampleError": "",
+    "runs": {
+      "ready": [
+        456,
+        440,
+        357,
+        349,
+        454,
+        274,
+        387
+      ],
+      "cls": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
